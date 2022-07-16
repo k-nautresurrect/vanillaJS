@@ -13,3 +13,16 @@ function outputResult(result, text) {
   currentResultOutput.textContent = result;
   currentCalculationOutput.textContent = text;
 }
+
+let elements = {
+  input: userInput,
+  add: addBtn,
+  sub: subtractBtn,
+  mul: multiplyBtn,
+  div: divideBtn,
+  equal: equalBtn,
+  reset: resetBtn,
+  result: outputResult,
+};
+
+export default elements;
